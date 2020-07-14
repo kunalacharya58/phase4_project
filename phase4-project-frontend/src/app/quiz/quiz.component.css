@@ -1,0 +1,57 @@
+.list-group-horizontal .list-group-item {
+	width: 33.33%;
+	text-align: center;
+}
+
+.quiz-page {
+	margin-top: 20px;
+}
+
+.quiz-page-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.question-box {
+	color: black;
+	margin: auto;
+	font-size: large;
+	margin-bottom: 4vw;
+	width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+	.question-box {
+		width: 100%;
+
+	}
+}
+
+.question-text {
+	padding: 20px;
+	background-color: rgb(174, 224, 245);
+	font-weight: bold;
+}
+
+.option {
+	margin-left: 10px;
+}
+
+.option-box {
+	padding: 10px;
+	padding-left: 50px;
+	padding-right:50px;
+}
+
+.option-box > label :hover {
+	text-shadow: 0 0 5px palegreen;
+	transition-duration: 0.2s;
+}
+
+.submit-button-holder {
+	margin-bottom: 30px;
+	text-align: center;
+}
+/* 
+set latest attempt in Previous Attempts table as active.
+ */

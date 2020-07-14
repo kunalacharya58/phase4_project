@@ -1,0 +1,24 @@
+.list-group-horizontal .list-group-item {
+	width: 33.33%;
+	text-align: center;
+}
+
+.result-page {
+	margin-top: 20px;
+}
+
+.result-page-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.NA {
+	color: rgb(172,172,172);
+}
+
+
+.button-holder {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
